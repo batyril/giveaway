@@ -8,7 +8,7 @@ import ResultPage from "@/pages/ResultPage"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="fixed top-4 right-4 z-50">
         <ThemeToggle />
       </div>
